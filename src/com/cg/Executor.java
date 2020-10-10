@@ -17,5 +17,15 @@ public class Executor {
     	
     	System.out.println("Here is the simple stack implemented by linked list : ");
     	stack.printStack();
+    	
+    	stack.peak();
+    	
+    	System.out.println(stack.isEmpty());
+    	
+    	stack.pop();
+    	stack.printStack();
+    	
+    	stack.popUntilEmpty();
+    	stack.printStack();
 	}
 }
