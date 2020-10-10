@@ -9,23 +9,14 @@ public class Executor {
     	Node<Integer> thirdNode = new Node<>(56);
     	Node<Integer> fourthNode = new Node<>(66);
     	
-    	Stack stack = new Stack();
-    	stack.push(firstNode);
-    	stack.push(secondNode);
-    	stack.push(thirdNode);
-    	stack.push(fourthNode);
+    	Queue queue = new Queue();
+    	queue.enqueue(firstNode);
+    	queue.enqueue(secondNode);
+    	queue.enqueue(thirdNode);
+    	queue.enqueue(fourthNode);
     	
-    	System.out.println("Here is the simple stack implemented by linked list : ");
-    	stack.printStack();
+    	System.out.println("Here is the simple queue implemented by linked list : ");
+    	queue.printQueue();
     	
-    	stack.peak();
-    	
-    	System.out.println(stack.isEmpty());
-    	
-    	stack.pop();
-    	stack.printStack();
-    	
-    	stack.popUntilEmpty();
-    	stack.printStack();
 	}
 }
