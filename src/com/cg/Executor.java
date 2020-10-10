@@ -18,5 +18,7 @@ public class Executor {
     	System.out.println("Here is the simple queue implemented by linked list : ");
     	queue.printQueue();
     	
+    	queue.dequeue();
+    	queue.printQueue();
 	}
 }

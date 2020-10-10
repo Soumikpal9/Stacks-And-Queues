@@ -11,6 +11,10 @@ public class Queue {
 		linkedList.append(newNode);
 	}
 	
+	public void dequeue() {
+		linkedList.popFirst();
+	}
+	
 	public void printQueue() {
 		linkedList.printLinkedList();
 	}
